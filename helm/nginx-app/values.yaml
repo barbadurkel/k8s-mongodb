@@ -1,0 +1,9 @@
+web: # group name
+  name: mywebdeployment
+  image: nginx
+
+service:
+  name: mywebservice
+  port: 80
+  protocol: TCP
+  type: ClusterIP
